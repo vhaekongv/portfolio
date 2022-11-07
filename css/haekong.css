@@ -1,0 +1,26 @@
+*{margin:0px; padding:0px;}
+li{list-style: none;}
+a{color:#222; text-decoration: none;}
+body{font-family: 'Gamja Flower', cursive;}
+a:hover{color:rgb(225, 125, 25);}
+
+/*header*/
+#header{width:1100px; margin:30px auto; position:relative; font-family: 'Yeon Sung', cursive;
+}
+.navi:after{clear:both; content:""; display:block;}
+h1 img{width:130px;}
+.top_img{position: absolute; top:30px; right:50px;}
+.top_img img{width:40px; margin-left:30px;}
+.navi{position:absolute; right:50px; bottom:5px;}
+#header li{float:left; margin-left:80px; font-size:22px;}
+
+/*visual*/
+#visual{width:100%; height:500px; background: url(../img/bg.png) no-repeat center center; background-size: cover;}
+#visual h2{font-size: 60px; line-height: 45px; color:rgba(43, 43, 43, 0.774)}
+#visual p{font-size: 20px; color:rgba(34, 34, 34, 0.847); margin:20px 0px 0px 5px;}
+.visual_w{width:1100px; height:500px; margin:0px auto; position:relative;}
+.visual_t{position: absolute; top:50%; left:50px; margin-top:-110px;}
+
+
+/*container*/
+
